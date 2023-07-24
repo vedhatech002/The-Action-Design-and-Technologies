@@ -228,11 +228,32 @@
 
 </script>
 <script>
-    const scrollContainer = document.querySelector("main");
-    scrollContainer.addEventListener("wheel", (evt) => {
-    evt.preventDefault();
-    scrollContainer.scrollLeft += evt.deltaY;
-     });
+const scrollContainer = document.querySelector("main");
+
+// Function to handle mouse wheel scroll
+const handleMouseWheelScroll = (evt) => {
+  evt.preventDefault();
+  scrollContainer.scrollLeft += evt.deltaY;
+};
+
+// Function to handle touch-based scroll
+let touchStartX = 0;
+let touchMoveX = 0;
+
+const handleTouchStart = (evt) => {
+  touchStartX = evt.touches[0].clientX;
+};
+
+const handleTouchMove = (evt) => {
+  touchMoveX = evt.touches[0].clientX;
+  const scrollAmount = touchStartX - touchMoveX;
+  scrollContainer.scrollLeft += scrollAmount;
+  touchStartX = touchMoveX;
+};
+
+scrollContainer.addEventListener("wheel", handleMouseWheelScroll);
+scrollContainer.addEventListener("touchstart", handleTouchStart);
+scrollContainer.addEventListener("touchmove", handleTouchMove);
 
 
 </script>
