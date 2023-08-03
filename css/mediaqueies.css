@@ -1,724 +1,874 @@
  /*-------------------------------------------------media quries-----------------------------------------*/
  @media only screen and (max-width: 1024px) {
-    .banner{
-        margin-top: 0;
-    }
-    .banner-title{
-        margin-left: 8rem;
-        padding-top: 7rem;
-        font-size: 3rem;
-    }
-    .banner-img{
-        margin-left: 60%;
-        width: 300px;
-        height: 150px;
-    }
-    main{
-        margin-left: 6rem;
-    }
-    .works{
-        width: 400px;
-        height: 400px;
-        background-color:grey;
-    }
-    #sec-para-div{
-        
-        width: 30rem;
-        height: 17rem;
-        padding-right: 3rem;
-    }
-    #sec-para{   
-         margin-left: 10rem;
-        line-height: 1.6rem;
-        padding-top: 0.1rem;
-        font-size: 14px;
-    }
-    #sec-col-2 {
-        width: 45%;
-        
-        
-       }
-       .fa-angle-right{
-        margin-right: -45rem;
-    }
-    .fa-angle-left{
-        margin-left: -45rem;
-    }
-    .blog-card{
-        width: 260px;
-        height: 260px;
-    }
-    .blog-title {
-        color: white;
-        padding: 0.5rem;
-        font-family: 'Josefin Sans';
-        font-size: 1rem;
-        padding-bottom: 2rem;
-        padding-left: 2.3rem;
-        position: relative;
-    }
-    #name-input,#phoneNo-input{
-        width: 20rem;
-    }
-    .message-div textarea{
-        width: 47rem;
-    }
-    .foot-bottom{
-        margin-left: 5rem;
-        margin-right: 5rem;
-    }
-    
-  }
-  @media only screen and (max-width: 900px){
-    #sec-para-div{
-        
-        width: 24rem;
-        height: 17rem;
-        padding-right: 3rem;
-    }
-    .fa-angle-right{
-        margin-right: -40rem;
-    }
-    .fa-angle-left{
-        margin-left: -40rem;
-    }
-    .blog-card{
-        width: 220px;
-        height: 220px;
-    }
-  }
-  @media only screen and (min-width: 769px) {
-  #toggle{
-    display: none;
-  }
-
-  }
-  @media only screen and (max-width: 768px) {
-    nav a {
-        display: none!important;
-      }
-    .logo{
-        margin-left:2rem ;
-    }
-    .logo>img{
-        width: 110px!important;
-    }
-    .menus{
-        margin-right: 2rem;
-    }
-    .banner{
-        margin-top:0;
-        padding-top: 0rem;
-    }
-    .banner-title{
-        margin-left: 2rem!important;
-        padding-top: 3rem;
-        font-size: 2rem!important;
-    }
-    .banner-img{
-        margin-left: 45%!important;
-        width: 230px;
-        height: 100px;
-    }
-    main{
-        margin-left: 1.5rem;
-    }
-    .works{
-        width: 400px;
-        height: 400px;
-        background-color:grey;
-    }
-    #sec-head{
-        font-size: 2rem;
-        margin-left: 2rem;
-        margin-top: -4rem;
-    }
-    span#develop{
-    
-        margin-left: 3rem;
-        font-weight: bolder;
-        font-size: 2.9rem;
-    }
-    
-    #sec-para-div{
-        width: 41rem;
-        height: 11rem;
-        padding-right: 3rem;
-    }
-    
-    #sec-para{       
-        margin-left: 6rem;
-        line-height: 1rem;
-        padding-top: 0.1rem;
-        font-size: 12px;
-   }
-   #second{
-    display: flex;
-    flex-direction: column;
-   }
-   #sec-col-2 {
-    width: -webkit-fill-available;
-    margin-top: -5rem;
-    height: 20rem;
-   }
-   #view-all{  margin-top: 5rem!important;} 
-   
-#viewall-font{
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 45px;
-    text-decoration: underline;
-    text-underline-offset: 1rem;
-    text-align: center;
-    padding-top: 3rem;
-    
-}
-#broad-hr-div{
-    text-align: -webkit-right;
-    margin-top: 6rem;
-}
-.fa-angle-right{
-    margin-right: -35rem;
-}
-.fa-angle-left{
-    margin-left: -35rem;
-}
-#testimonial{
-    font-size: 45px; 
-}
-.blog-card {
-    width: 190px;
-    height: 190px;
-}
-.blog-title {
-   
-    font-family: 'Josefin Sans';
-    font-size: 0.8rem;
-   
-}
-.blog-footer a {
-    color: red;
-    font-size: 16px;
-    font-weight: 500;
-}
-#getin-h {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 2.5rem;
-    color: rgba(255,0,0,1);
-    text-align: center;
-
-}
-.let-start{
-    font-size: 3rem;
-}
-#name-input, #phoneNo-input {
-    width: 13rem;
-}
-.message-div textarea{
-    width: 33rem;
-}
-.bottom-nav-links{
-    gap: 3rem;
-}
-.foot-bottom{
-    margin-left: 4rem;
-    margin-right: 4rem;
-}
-
-    
-  }
-  @media only screen and (max-width: 720px){
-    #sec-para-div{
-        width: 35rem;
-        height: 11rem;
-        padding-right: 3rem;
-    }
-  }
-  
-  @media only screen and (max-width: 620px){
-    #sec-para-div{
-        width: 30rem;
-        height: 11rem;
-        padding-right: 3rem;
-    }
-    .fa-angle-right{
-        margin-right: -30rem;
-    }
-    .fa-angle-left{
-        margin-left: -30rem;
-    }
-  }
-  @media only screen and (max-width: 545px){
-    .banner-title{
-        margin-left: 2rem!important;
-        padding-top: 4rem!important;
-        font-size: 1.5rem!important;
-    }
-    .banner-img{
-        margin-left: 45%!important;
-        width: 200px!important;
-        height: 90px!important;
-    }
-    .ourworkbanner{
-        margin-top: 5rem;
-        font-size: 2rem;
-    }
-    main{
-        margin-left: 3px;
-        margin-top: 0px;
-    }
-    .works{
-        width: 400px;
-        height: 400px;
-        background-color:grey;
-    }
-    
-    #sec-head{
-        font-size: 1.5rem;
-        margin-left: 2rem;
-        margin-top: -4rem;
-    }
-    span#develop{
-    
-        margin-left: 3rem;
-        font-weight: bolder;
-        font-size: 1.8rem;
-    }
-    
-    #sec-para-div{
-        
-        width: 25rem;
-        height: 11rem;
-        padding-right: 3rem;
-    }
-    
-    #sec-para{       
-        margin-left: 6rem;
-        line-height: 1rem;
-        padding-top: 0.1rem;
-        font-size: 10px;
-        margin-top: 0px;
-   }
-   #second{
-    display: flex;
-    flex-direction: column;
-   }
-   #sec-col-2 {
-    width: -webkit-fill-available;
-    margin-top: -5rem;
-   }
-   .fa-angle-right{
-    margin-right: -27rem;
-}
-.fa-angle-left{
-    margin-left: -27rem;
-}
-  }
-  @media only screen and (max-width:500px){
-    
-    
-    #sec-para-div{
-        
-        width: 23rem;
-        height: 11rem;
-        padding-right: 3rem;
-    }
-    
-    #sec-para{       
-        margin-left: 6rem;
-        line-height: 1rem;
-        padding-top: 0.1rem;
-        font-size: 12px;
-        margin-top: 0px;
-   }
-   #second{
-    display: flex;
-    flex-direction: column;
-   }
-   #sec-col-2 {
-    width: -webkit-fill-available;
-    margin-top: -5rem;
-    height: auto;
-   }
-   .ourworkbanner{
-    
-    font-size: 1.5rem;
-}
-.works {
-    width: 360px;
-    height: 360px;
-    background-color: grey;
-}
-.works-name {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 1rem;
-    font-weight: bold;
-}
-   #view-all{  margin-top: 1rem!important;}
-   #let {
-    text-align: center;
-    font-size: 1.5rem;
-    margin-top: -4rem;
-}
-#viewall-font {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.5rem;
-    text-decoration: underline;
-    text-underline-offset: 1rem;
-    text-align: center;
-    padding-top: 3rem;
-}
-#broad-hr-div {
-    text-align: -webkit-right;
-    margin-top: 2rem;
-}
-#broad-hr {
-    height: 0.5rem;
-    border: none;
-    width: 92%;
-    background-color: rgba(255,0,0,1);
-}
-.fa-angle-right{
-    margin-right: -22rem;
-}
-.fa-angle-left{
-    margin-left: -22rem;
-}
-#testimonial{
-    font-size: 1.5rem; 
-}
-
-
-  }
-  @media only screen and (max-width:426px){
-    nav a {
-        display: none!important;
-      }
-      .banner {
-        margin-top: 4rem;
-        padding-top: 0rem;
-    }
-    #sec-para-div{
-        
-        width: 20rem;
-        height: 11rem;
-        padding-right: 3rem;
-    }
-    #sec-para{       
-        margin-left: 6rem;
-        line-height: 0.9rem;
-        padding-top: 0.1rem;
-        font-size: 10px;
-        margin-top: 0px;
-   }
-   #sec-head{
-    font-size: 1.5rem!important;
-    margin-left: 2rem;
-    margin-top: -4rem;
-   }
-span#develop{
-
-    margin-left: 3rem;
-    font-weight: bolder;
-    font-size: 1.3rem!important;
-   }
-   #sec-col-2 {
-    width: -webkit-fill-available;
-    margin-top: -5rem;
-   }
-   #sec-col-2{
-    height: auto;
- }
- .ourworkbanner{
-    margin-top: 5rem;
-    font-size: 1.5rem;
-}
-.works {
-    width: 310px;
-    height: 310px;
-    background-color: grey;
-}
-   #view-all{  margin-top: -1rem!important;} 
-   #viewall-font{
-       font-family: 'Josefin Sans', sans-serif;
-       font-size: 1.5rem;
-       text-decoration: underline;
-       text-underline-offset: 1rem;
-       text-align: center;
-       padding-top: 3rem;
-       
-   }
-   #tele{
-       text-align: right;
-       
-   }
-   #image-tele{
-       margin-top: 0;
-       width: 25%;
-       height: 25%;
-   }
-   #talk{
-       font-family: 'Josefin Sans', sans-serif;
-       text-decoration: none;
-       color: rgba(255,0,0,1);
-       
-   }
-   #let{
-       text-align: center;
-       font-size: 1rem;
-       margin-top: -3rem;
-   }
-   #broad-hr{
-       height: .4rem;
-       border: none;
-       width: 92%;
-      
-       background-color: rgba(255,0,0,1);
-   }
-   #broad-hr-div{
-       text-align: -webkit-right;
-       margin-top: 1.6rem;
-   }
-   .fa-angle-right{
-    margin-right: -19rem;
-}
-.fa-angle-left{
-    margin-left: -19rem;
-}
-.blog-container {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
-}
-.action-blog{
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.5rem;
-}
-.blog-card {
-    width: -webkit-fill-available;
-    height: 270px;
-}
-.blog-title {
-   
-    font-family: 'Josefin Sans';
-    font-size: 1rem;
-    padding-left: 3.3rem;
-}
-.blog-title::before {
-    content: "";
-    height: -webkit-fill-available;
-    margin-bottom: 2rem;
-    width: 0.5rem;
-    background-color: red;
-    position: absolute;
-    left: 1.8rem;
-}
-.blog-footer a {
-    color: red;
-    font-size: 12px;
-    font-weight: 500;
-}
-#getin-h {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.5rem;
-    color: rgba(255,0,0,1);
-    text-align: center;
-
-}
-#social {
-    margin-top: -1rem;
-    display: flex;
-    align-items: center;
-    gap:0;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 12px;
-}
-.let-start {
-    font-size: 2rem;
-}
-.input {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-}
-.message-div{
-    margin-top: 0rem;
-}
-.message-div textarea {
-    width: 12rem;
-}
-.bottom-nav-links {
-    gap: 1rem;
-}
-.bottom-nav-links a {
-    font-size: 16px;
-}
-.foot-bottom {
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
-.foot-bottom p{
-    font-size: 12px;
-}
-  }
-  @media only screen and (max-width: 376px){
-    .banner-img{
-        margin-left: 45%!important;
-        width: 170px!important;
-        height: 90px!important;
-    }
-    main{
-        margin-left: 2px;
-        margin-top: 0px;
-    }
-    .works{
-        width: 300px;
-        height: 300px;
-        background-color:grey;
-    }
-    .works-name {
-        font-family: 'Josefin Sans', sans-serif;
-        font-size: 1rem;
-        font-weight: bold;
-    }
-    .ourworkbanner{
-        margin-top: 5rem;
-        font-size: 1.5rem;
-    }
-    #sec-para-div{
-        
-        width: 17rem;
-        height: 8rem;
-        padding-right: 3rem;
-    }
-    #sec-col-2 {
-        width: -webkit-fill-available;
-        margin-top: -5rem;
-       }
-     #sec-col-2{
-        height: auto;
+     .banner {
+         margin-top: 0;
      }
-       #view-all{  margin-top: -1rem!important;} 
-   #viewall-font{
-       font-family: 'Josefin Sans', sans-serif;
-       font-size: 1.5rem;
-       text-decoration: underline;
-       text-underline-offset: 1rem;
-       text-align: center;
-       padding-top: 3rem;
-       
-   }
-   #tele{
-       text-align: right;
-       
-   }
-   #image-tele{
-       margin-top: 0;
-       width: 25%;
-       height: 25%;
-   }
-   #talk{
-       font-family: 'Josefin Sans', sans-serif;
-       text-decoration: none;
-       color: rgba(255,0,0,1);
-       
-   }
-   #let{
-       text-align: center;
-       font-size: 1rem;
-       margin-top: -3rem;
-   }
-   #broad-hr{
-       height: .4rem;
-       border: none;
-       width: 92%;
-      
-       background-color: rgba(255,0,0,1);
-   }
-   #broad-hr-div{
-       text-align: -webkit-right;
-       margin-top: 1.6rem;
-   }
-   .fa-angle-right{
-    margin-right: -17rem;
-}
-.fa-angle-left{
-    margin-left: -17rem;
-}
-.bottom-nav-links a {
-    font-size: 14px!important;
-}
-.foot-bottom {
-    margin-left: 0.1rem;
-    margin-right: 0.1rem;
-}
 
-  }
-  @media only screen and (max-width: 320px){
-    .banner-title{
-        margin-left: 2rem!important;
-        padding-top: 4rem!important;
-        font-size: 1rem!important;
-    }
-    .banner-img{
-        margin-left: 45%!important;
-        width: 170px!important;
-        height: 90px!important;
-    }
-    .ourworkbanner{
-        margin-top: 5rem;
-        font-size: 1.5rem;
-    }
-    
-    main{
-        margin-left: 0px;
-        margin-top: 0px;
-    }
-    .works{
-        width: 300px;
-        height: 300px;
-        background-color:grey;
-    }
-    #sec-para-div{
-        
-        width: 15rem;
-        height: 8rem;
-        padding-right: 3rem;
-    }
-    
-    #sec-para{       
-        margin-left: 6rem;
-        line-height: 0.9rem;
-        padding-top: 0.1rem;
-        font-size: 10px;
-        margin-top: 0px;
-        
-   }
-   #sec-col-2 {
-    width: -webkit-fill-available;
-    margin-top: -5rem;
-   }
-   .fa-angle-right{
-    margin-right: -15rem;
-}
-.fa-angle-left{
-    margin-left: -15rem;
-}
-.bottom-nav-links {
-    gap: 0.6rem;
-}
-.bottom-nav-links a {
-    font-size: 13px!important;
-}
-.foot-bottom {
-    margin-left: 0rem;
-    margin-right: 0rem;
-}
-.foot-bottom p {
-    white-space: nowrap;
-    font-size: 10px;
-}
-  }
- 
+     .banner-title {
+         margin-left: 8rem;
+         padding-top: 7rem;
+         font-size: 3rem;
+     }
+
+     .banner-img {
+         margin-left: 60%;
+         width: 300px;
+         height: 150px;
+     }
+
+     main {
+         margin-left: 6rem;
+     }
+
+     .works {
+         width: 400px;
+         height: 400px;
+         background-color: grey;
+     }
+
+     #sec-para-div {
+
+         width: 30rem;
+         height: 17rem;
+         padding-right: 3rem;
+     }
+
+     #sec-para {
+         margin-left: 10rem;
+         line-height: 1.6rem;
+         padding-top: 0.1rem;
+         font-size: 14px;
+     }
+
+     #sec-col-2 {
+         width: 45%;
+
+
+     }
+
+     .fa-angle-right {
+         margin-right: -45rem;
+     }
+
+     .fa-angle-left {
+         margin-left: -45rem;
+     }
+
+     .blog-card {
+         width: 260px;
+         height: 260px;
+     }
+
+     .blog-title {
+         color: white;
+         padding: 0.5rem;
+         font-family: 'Josefin Sans';
+         font-size: 1rem;
+         padding-bottom: 2rem;
+         padding-left: 2.3rem;
+         position: relative;
+     }
+
+     #name-input,
+     #phoneNo-input {
+         width: 20rem;
+     }
+
+     .message-div textarea {
+         width: 47rem;
+     }
+
+     .foot-bottom {
+         margin-left: 5rem;
+         margin-right: 5rem;
+     }
+
+ }
+
+ @media only screen and (max-width: 900px) {
+     #sec-para-div {
+
+         width: 24rem;
+         height: 17rem;
+         padding-right: 3rem;
+     }
+
+     .fa-angle-right {
+         margin-right: -40rem;
+     }
+
+     .fa-angle-left {
+         margin-left: -40rem;
+     }
+
+     .blog-card {
+         width: 220px;
+         height: 220px;
+     }
+ }
+
+ @media only screen and (min-width: 769px) {
+     #toggle {
+         display: none;
+     }
+
+ }
+
+ @media only screen and (max-width: 768px) {
+     nav a {
+         display: none !important;
+     }
+
+     .logo {
+         margin-left: 2rem;
+     }
+
+     .logo>img {
+         width: 110px !important;
+     }
+
+     .menus {
+         margin-right: 2rem;
+     }
+
+     .banner {
+         margin-top: 0;
+         padding-top: 0rem;
+     }
+
+     .banner-title {
+         margin-left: 2rem !important;
+         padding-top: 3rem;
+         font-size: 2rem !important;
+     }
+
+     .banner-img {
+         margin-left: 45% !important;
+         width: 230px;
+         height: 100px;
+     }
+
+     main {
+         margin-left: 1.5rem;
+     }
+
+     .works {
+         width: 400px;
+         height: 400px;
+         background-color: grey;
+     }
+
+     #sec-head {
+         font-size: 2rem;
+         margin-left: 2rem;
+         margin-top: -4rem;
+     }
+
+     span#develop {
+
+         margin-left: 3rem;
+         font-weight: bolder;
+         font-size: 2.9rem;
+     }
+
+     #sec-para-div {
+         width: 41rem;
+         height: 11rem;
+         padding-right: 3rem;
+     }
+
+     #sec-para {
+         margin-left: 6rem;
+         line-height: 1rem;
+         padding-top: 0.1rem;
+         font-size: 12px;
+     }
+
+     #second {
+         display: flex;
+         flex-direction: column;
+     }
+
+     #sec-col-2 {
+         width: -webkit-fill-available;
+         margin-top: -5rem;
+         height: 20rem;
+     }
+
+     #view-all {
+         margin-top: 5rem !important;
+     }
+
+     #viewall-font {
+         font-family: 'Josefin Sans', sans-serif;
+         font-size: 45px;
+         text-decoration: underline;
+         text-underline-offset: 1rem;
+         text-align: center;
+         padding-top: 3rem;
+
+     }
+
+     #broad-hr-div {
+         text-align: -webkit-right;
+         margin-top: 6rem;
+     }
+
+     .fa-angle-right {
+         margin-right: -35rem;
+     }
+
+     .fa-angle-left {
+         margin-left: -35rem;
+     }
+
+     #testimonial {
+         font-size: 45px;
+     }
+
+     .blog-card {
+         width: 190px;
+         height: 190px;
+     }
+
+     .blog-title {
+
+         font-family: 'Josefin Sans';
+         font-size: 0.8rem;
+
+     }
+
+     .blog-footer a {
+         color: red;
+         font-size: 16px;
+         font-weight: 500;
+     }
+
+     #getin-h {
+         font-family: 'Josefin Sans', sans-serif;
+         font-size: 2.5rem;
+         color: rgba(255, 0, 0, 1);
+         text-align: center;
+
+     }
+
+     .let-start {
+         font-size: 3rem;
+     }
+
+     #name-input,
+     #phoneNo-input {
+         width: 13rem;
+     }
+
+     .message-div textarea {
+         width: 33rem;
+     }
+
+     .bottom-nav-links {
+         gap: 3rem;
+     }
+
+     .foot-bottom {
+         margin-left: 4rem;
+         margin-right: 4rem;
+     }
+
+
+ }
+
+ @media only screen and (max-width: 720px) {
+     #sec-para-div {
+         width: 35rem;
+         height: 11rem;
+         padding-right: 3rem;
+     }
+ }
+
+ @media only screen and (max-width: 620px) {
+     #sec-para-div {
+         width: 30rem;
+         height: 11rem;
+         padding-right: 3rem;
+     }
+
+     .fa-angle-right {
+         margin-right: -30rem;
+     }
+
+     .fa-angle-left {
+         margin-left: -30rem;
+     }
+ }
+
+ @media only screen and (max-width: 545px) {
+     .banner-title {
+         margin-left: 2rem !important;
+         padding-top: 4rem !important;
+         font-size: 1.5rem !important;
+     }
+
+     .banner-img {
+         margin-left: 45% !important;
+         width: 200px !important;
+         height: 90px !important;
+     }
+
+     .ourworkbanner {
+         margin-top: 5rem;
+         font-size: 2rem;
+     }
+
+     main {
+         margin-left: 3px;
+         margin-top: 0px;
+     }
+
+     .works {
+         width: 400px;
+         height: 400px;
+         background-color: grey;
+     }
+
+     #sec-head {
+         font-size: 1.5rem;
+         margin-left: 2rem;
+         margin-top: -4rem;
+     }
+
+     span#develop {
+
+         margin-left: 3rem;
+         font-weight: bolder;
+         font-size: 1.8rem;
+     }
+
+     #sec-para-div {
+
+         width: 25rem;
+         height: 11rem;
+         padding-right: 3rem;
+     }
+
+     #sec-para {
+         margin-left: 6rem;
+         line-height: 1rem;
+         padding-top: 0.1rem;
+         font-size: 10px;
+         margin-top: 0px;
+     }
+
+     #second {
+         display: flex;
+         flex-direction: column;
+     }
+
+     #sec-col-2 {
+         width: -webkit-fill-available;
+         margin-top: -5rem;
+     }
+
+     .fa-angle-right {
+         margin-right: -27rem;
+     }
+
+     .fa-angle-left {
+         margin-left: -27rem;
+     }
+ }
+
+ @media only screen and (max-width:500px) {
+
+
+     #sec-para-div {
+
+         width: 23rem;
+         height: 11rem;
+         padding-right: 3rem;
+     }
+
+     #sec-para {
+         margin-left: 6rem;
+         line-height: 1rem;
+         padding-top: 0.1rem;
+         font-size: 12px;
+         margin-top: 0px;
+     }
+
+     #second {
+         display: flex;
+         flex-direction: column;
+     }
+
+     #sec-col-2 {
+         width: -webkit-fill-available;
+         margin-top: -5rem;
+         height: auto;
+     }
+
+     .ourworkbanner {
+
+         font-size: 1.5rem;
+     }
+
+     .works {
+         width: 360px;
+         height: 360px;
+         background-color: grey;
+     }
+
+     .works-name {
+         font-family: 'Josefin Sans', sans-serif;
+         font-size: 1rem;
+         font-weight: bold;
+     }
+
+     #view-all {
+         margin-top: 1rem !important;
+     }
+
+     #let {
+         text-align: center;
+         font-size: 1.5rem;
+         margin-top: -4rem;
+     }
+
+     #viewall-font {
+         font-family: 'Josefin Sans', sans-serif;
+         font-size: 1.5rem;
+         text-decoration: underline;
+         text-underline-offset: 1rem;
+         text-align: center;
+         padding-top: 3rem;
+     }
+
+     #broad-hr-div {
+         text-align: -webkit-right;
+         margin-top: 2rem;
+     }
+
+     #broad-hr {
+         height: 0.5rem;
+         border: none;
+         width: 92%;
+         background-color: rgba(255, 0, 0, 1);
+     }
+
+     .fa-angle-right {
+         margin-right: -22rem;
+     }
+
+     .fa-angle-left {
+         margin-left: -22rem;
+     }
+
+     #testimonial {
+         font-size: 1.5rem;
+     }
+
+
+ }
+
+ @media only screen and (max-width:426px) {
+     nav a {
+         display: none !important;
+     }
+
+     .banner {
+         margin-top: 4rem;
+         padding-top: 0rem;
+     }
+
+     #sec-para-div {
+
+         width: 20rem;
+         height: 11rem;
+         padding-right: 3rem;
+     }
+
+     #sec-para {
+         margin-left: 6rem;
+         line-height: 0.9rem;
+         padding-top: 0.1rem;
+         font-size: 10px;
+         margin-top: 0px;
+     }
+
+     #sec-head {
+         font-size: 1.5rem !important;
+         margin-left: 2rem;
+         margin-top: -4rem;
+     }
+
+     span#develop {
+
+         margin-left: 3rem;
+         font-weight: bolder;
+         font-size: 1.3rem !important;
+     }
+
+     #sec-col-2 {
+         width: -webkit-fill-available;
+         margin-top: -5rem;
+     }
+
+     #sec-col-2 {
+         height: auto;
+     }
+
+     .ourworkbanner {
+         margin-top: 5rem;
+         font-size: 1.5rem;
+     }
+
+     .works {
+         width: 310px;
+         height: 310px;
+         background-color: grey;
+     }
+
+     #view-all {
+         margin-top: -1rem !important;
+     }
+
+     #viewall-font {
+         font-family: 'Josefin Sans', sans-serif;
+         font-size: 1.5rem;
+         text-decoration: underline;
+         text-underline-offset: 1rem;
+         text-align: center;
+         padding-top: 3rem;
+
+     }
+
+     #tele {
+         text-align: right;
+
+     }
+
+     #image-tele {
+         margin-top: 0;
+         width: 25%;
+         height: 25%;
+     }
+
+     #talk {
+         font-family: 'Josefin Sans', sans-serif;
+         text-decoration: none;
+         color: rgba(255, 0, 0, 1);
+
+     }
+
+     #let {
+         text-align: center;
+         font-size: 1rem;
+         margin-top: -3rem;
+     }
+
+     #broad-hr {
+         height: .4rem;
+         border: none;
+         width: 92%;
+
+         background-color: rgba(255, 0, 0, 1);
+     }
+
+     #broad-hr-div {
+         text-align: -webkit-right;
+         margin-top: 1.6rem;
+     }
+
+     .fa-angle-right {
+         margin-right: -19rem;
+     }
+
+     .fa-angle-left {
+         margin-left: -19rem;
+     }
+
+     .blog-container {
+         width: 80%;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         gap: 1.5rem;
+     }
+
+     .action-blog {
+         font-family: 'Josefin Sans', sans-serif;
+         font-size: 1.5rem;
+     }
+
+     .blog-card {
+         width: -webkit-fill-available;
+         height: 270px;
+     }
+
+     .blog-title {
+
+         font-family: 'Josefin Sans';
+         font-size: 1rem;
+         padding-left: 3.3rem;
+     }
+
+     .blog-title::before {
+         content: "";
+         height: -webkit-fill-available;
+         margin-bottom: 2rem;
+         width: 0.5rem;
+         background-color: red;
+         position: absolute;
+         left: 1.8rem;
+     }
+
+     .blog-footer a {
+         color: red;
+         font-size: 12px;
+         font-weight: 500;
+     }
+
+     #getin-h {
+         font-family: 'Josefin Sans', sans-serif;
+         font-size: 1.5rem;
+         color: rgba(255, 0, 0, 1);
+         text-align: center;
+
+     }
+
+     #social {
+         margin-top: -1rem;
+         display: flex;
+         align-items: center;
+         gap: 0;
+         font-family: 'Josefin Sans', sans-serif;
+         font-size: 12px;
+     }
+
+     .let-start {
+         font-size: 2rem;
+     }
+
+     .input {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         gap: 1rem;
+     }
+
+     .message-div {
+         margin-top: 0rem;
+     }
+
+     .message-div textarea {
+         width: 12rem;
+     }
+
+     .bottom-nav-links {
+         gap: 1rem;
+     }
+
+     .bottom-nav-links a {
+         font-size: 16px;
+     }
+
+     .foot-bottom {
+         margin-left: 1rem;
+         margin-right: 1rem;
+     }
+
+     .foot-bottom p {
+         font-size: 12px;
+     }
+ }
+
+ @media only screen and (max-width: 376px) {
+     .banner-img {
+         margin-left: 45% !important;
+         width: 170px !important;
+         height: 90px !important;
+     }
+
+     main {
+         margin-left: 2px;
+         margin-top: 0px;
+     }
+
+     .works {
+         width: 300px;
+         height: 300px;
+         background-color: grey;
+     }
+
+     .works-name {
+         font-family: 'Josefin Sans', sans-serif;
+         font-size: 1rem;
+         font-weight: bold;
+     }
+
+     .ourworkbanner {
+         margin-top: 5rem;
+         font-size: 1.5rem;
+     }
+
+     #sec-para-div {
+
+         width: 17rem;
+         height: 8rem;
+         padding-right: 3rem;
+     }
+
+     #sec-col-2 {
+         width: -webkit-fill-available;
+         margin-top: -5rem;
+     }
+
+     #sec-col-2 {
+         height: auto;
+     }
+
+     #view-all {
+         margin-top: -1rem !important;
+     }
+
+     #viewall-font {
+         font-family: 'Josefin Sans', sans-serif;
+         font-size: 1.5rem;
+         text-decoration: underline;
+         text-underline-offset: 1rem;
+         text-align: center;
+         padding-top: 3rem;
+
+     }
+
+     #tele {
+         text-align: right;
+
+     }
+
+     #image-tele {
+         margin-top: 0;
+         width: 25%;
+         height: 25%;
+     }
+
+     #talk {
+         font-family: 'Josefin Sans', sans-serif;
+         text-decoration: none;
+         color: rgba(255, 0, 0, 1);
+
+     }
+
+     #let {
+         text-align: center;
+         font-size: 1rem;
+         margin-top: -3rem;
+     }
+
+     #broad-hr {
+         height: .4rem;
+         border: none;
+         width: 92%;
+
+         background-color: rgba(255, 0, 0, 1);
+     }
+
+     #broad-hr-div {
+         text-align: -webkit-right;
+         margin-top: 1.6rem;
+     }
+
+     .fa-angle-right {
+         margin-right: -17rem;
+     }
+
+     .fa-angle-left {
+         margin-left: -17rem;
+     }
+
+     .bottom-nav-links a {
+         font-size: 14px !important;
+     }
+
+     .foot-bottom {
+         margin-left: 0.1rem;
+         margin-right: 0.1rem;
+     }
+
+ }
+
+ @media only screen and (max-width: 320px) {
+     .banner-title {
+         margin-left: 2rem !important;
+         padding-top: 4rem !important;
+         font-size: 1rem !important;
+     }
+
+     .banner-img {
+         margin-left: 43% !important;
+         width: 170px !important;
+         height: 90px !important;
+     }
+
+     .ourworkbanner {
+         margin-top: 5rem;
+         font-size: 1.5rem;
+     }
+
+     main {
+         margin-left: 0px;
+         margin-top: 0px;
+     }
+
+     .works {
+         width: 300px;
+         height: 300px;
+         background-color: grey;
+     }
+
+     #sec-para-div {
+
+         width: 15rem;
+         height: 8rem;
+         padding-right: 3rem;
+     }
+
+     #sec-para {
+         margin-left: 6rem;
+         line-height: 0.9rem;
+         padding-top: 0.1rem;
+         font-size: 10px;
+         margin-top: 0px;
+
+     }
+
+     #sec-col-2 {
+         width: -webkit-fill-available;
+         margin-top: -5rem;
+     }
+
+     .fa-angle-right {
+         margin-right: -15rem;
+     }
+
+     .fa-angle-left {
+         margin-left: -15rem;
+     }
+
+     .bottom-nav-links {
+         gap: 0.6rem;
+     }
+
+     .bottom-nav-links a {
+         font-size: 13px !important;
+     }
+
+     .foot-bottom {
+         margin-left: 0rem;
+         margin-right: 0rem;
+     }
+
+     .foot-bottom p {
+         white-space: nowrap;
+         font-size: 10px;
+     }
+ }
