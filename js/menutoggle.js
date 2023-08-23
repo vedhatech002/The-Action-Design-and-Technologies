@@ -15,9 +15,9 @@ togglebtn.addEventListener("click", () => {
          innerDiv.className = "nav-item";
          
          const menuItems = [
+            { text: 'Home', href: 'index.html' },
              { text: 'Works', href: 'works.html' },
              { text: 'Service', href: 'service.html' },
-             { text: 'Team', href: 'team.html' },
              { text: 'Contact', href: 'contact.html' }
          ];
 

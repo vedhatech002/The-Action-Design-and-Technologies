@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Action Service</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300&family=Work+Sans:wght@100;200;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/header&footer.css">
+    <link rel="stylesheet" href="./css/mediaqueies.css">
+    <link rel="stylesheet" href="./css/service.css">
+</head>
+<body>
+    <header>
+        <div class="navbar" id="navbar">
+            <div class="logo">
+                <img src="./images/logo.png" alt="logo" width="150px">
+            </div>
+            <div class="menus">
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="works.html">Works</a>
+                    <a href="service.html">Service</a>
+                    <a href="contact.html">Contact</a>
+                    <div class="hamburger" onclick="myFunction(this)" id="toggle">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+    <br><br><br><br>
+    <section>
+       
+    <div class="service-container">
+        <div class="service-content">
+            <h2>services</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque eius non distinctio eaque doloribus natus fugiat tenetur? Doloribus, facilis nulla deleniti sit praesentium nemo beatae dignissimos quibusdam magnam assumenda repellendus.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae incidunt, ratione quas in aperiam laborum, provident rem quae exercitationem, repellat dicta? Sapiente quae quod totam nulla ea autem quos quaerat.</p>
+        </div>
+        <div class="intro-video">
+            <div class="video"></div>
+        </div>
+    </div>
+    <div class="our-services">
+        <a href="#">Graphic Designing</a>
+        <a href="#">UiUx Designing</a>
+        <a href="#">Web Devlopment</a>
+        <a href="#">Marketing</a>
+    </div>
+    <div class="work-view">
+        <h2>View All Works</h2>
+    </div>
+    </section>
+    <section class="contact-form">
+        <div class="contact-form-container">
+            <div class="let-start">Let's Start a <span>Project</span></div>
+
+            <form class="forms" method="post">
+                <div class="input">
+                    <div class="name input-div">
+                        <label class="label">Name.</label>
+                        <input type="text" name="name" id="name-input">
+                    </div>
+                    <div class="phone input-div">
+                        <label class="label">Phone.</label>
+                        <input type="number" name="" id="phoneNo-input">
+                    </div>
+                </div>
+                <div class="message-box">
+                    <div class="message-div">
+                        <label class="label">Message.</label>
+                        <textarea></textarea>
+                    </div>
+                    <input type="submit" value="Send" class="btn">
+
+                </div>
+            </form>
+
+        </div>
+    </section>
+    <footer>
+        <div class="bottom-nav">
+            <div class="bottom-nav-links">
+                <a href="#">Home</a>
+                <a href="works.html">Works</a>
+                <a href="#">Service</a>
+                <a href="#">Pricing</a>
+                <a href="#">Team</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        <div class="foot-bottom">
+            <p>copyright &copy; 2023 - All rights are reserved</p>
+            <p>Privacy Policy</p>
+        </div>
+
+    </footer>
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("change");
+        }
+
+    </script>
+    <script src="./js/menutoggle.js"></script>
+</body>
+</html>

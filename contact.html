@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300&family=Work+Sans:wght@100;200;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="./css/header&footer.css">
+    <link rel="stylesheet" href="./css/mediaqueies.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <script src="https://kit.fontawesome.com/f04d9810c1.js" crossorigin="anonymous"></script>
+ 
+</head>
+<body>
+    <header>
+        <div class="navbar" id="navbar">
+            <div class="logo">
+                <img src="./images/logo.png" alt="logo" width="150px">
+            </div>
+            <div class="menus">
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="works.html">Works</a>
+                    <a href="service.html">Service</a>
+                    <a href="contact.html">Contact</a>
+                    <div class="hamburger" onclick="myFunction(this)" id="toggle">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+    </header> 
+    <section class="contact-sec">
+        <div class="contact-container">
+            <div class="contact-items">
+                <h3>Email Us</h3>
+                <p>theactiondesigns@gmail.com</p>
+            </div>
+            <div class="contact-items">
+                <h3>Call Us</h3>
+                <p> +91 9834758669</p>
+            </div>
+            <div class="contact-items">
+                <h3>Office</h3>
+                <p>top floor,cub bank,<br>Maruthi Nagar,<br>Tirichiruppali-62002</p>
+            </div>
+            <div class="contact-items">
+                <h3>Call Us for project</h3>
+                <p> +91 9834758669</p>
+            </div>
+            <div class="contact-items">
+                <button type="button">START PROJECT <span><i class="gg-arrow-long-right"></i></span></button>
+            </div>
+        </div>
+
+       
+    </section>
+    <section id="getintouch">
+
+        <div>
+            <h2 id="getin-h">Get In Touch</h2>
+        </div>
+
+        <div id="social">
+
+            <p>-Ig</p>
+            <p>-Fb</p>
+
+        </div>
+
+    </section>
+    <section class="contact-form">
+        <div class="contact-form-container">
+            <div class="let-start">Let's Start a <span>Project</span></div>
+
+            <form class="forms" method="post">
+                <div class="input">
+                    <div class="name input-div">
+                        <label class="label">Name.</label>
+                        <input type="text" name="name" id="name-input">
+                    </div>
+                    <div class="phone input-div">
+                        <label class="label">Phone.</label>
+                        <input type="number" name="" id="phoneNo-input">
+                    </div>
+                </div>
+                <div class="message-box">
+                    <div class="message-div">
+                        <label class="label">Message.</label>
+                        <textarea></textarea>
+                    </div>
+                    <input type="submit" value="Send" class="btn">
+
+                </div>
+            </form>
+
+        </div>
+    </section>
+    <footer>
+        <div class="bottom-nav">
+            <div class="bottom-nav-links">
+                <a href="#">Home</a>
+                <a href="works.html">Works</a>
+                <a href="#">Service</a>
+                <a href="#">Pricing</a>
+                <a href="#">Team</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        <div class="foot-bottom">
+            <p>copyright &copy; 2023 - All rights are reserved</p>
+            <p>Privacy Policy</p>
+        </div>
+
+    </footer>
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("change");
+        }
+
+    </script>
+    <script src="./js/menutoggle.js"></script>
+</body>
+</html>

@@ -1,29 +1,44 @@
-*
-{
- padding: 0;
- margin: 0;   
+* {
+    padding: 0;
+    margin: 0;
 }
-header{
-    background-color: rgba(0, 0, 0, 0.878);
+
+header {
+ 
+    background-color: rgb(31 31 31);
+    position: fixed;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0;
+    padding: 0;
+
+}
+
+.navbar {
+
     display: inline-flex;
     flex-direction: row;
     width: 100%;
     align-items: center;
     justify-content: space-between;
-   
 }
-.logo{
+
+.logo {
     margin-top: 1.5rem;
     margin-left: 7rem;
     padding-bottom: 1.3rem;
 }
+
 .menus {
     display: inline-flex;
     flex-direction: row;
     align-content: center;
-    margin-right: 7rem ;
+    margin-right: 7rem;
 }
-nav{
+
+nav {
     display: inline-flex;
     flex-direction: row;
     gap: 1rem;
@@ -32,77 +47,88 @@ nav{
 }
 
 
-.menus > nav a{
+.menus>nav a {
     text-decoration: none;
     color: white;
 }
-.hamburger{
+
+.hamburger {
     margin-top: -10px;
     margin-left: 1rem;
 }
 
-.bar1, .bar2{
+.bar1,
+.bar2 {
     width: 35px;
     height: 3px;
     background-color: #ffff;
-    margin-top:8px;
+    margin-top: 8px;
     transition: 0.4s;
     border-radius: 8px;
-  }
-.bar3{
+}
+
+.bar3 {
     width: 22px;
     height: 3px;
     background-color: #ffff;
-    margin-top:8px;
+    margin-top: 8px;
     transition: 0.4s;
     float: right;
     border-radius: 8px;
-    
-}  
-  
-  .change .bar1 {
+
+}
+
+.change .bar1 {
     transform: translate(0, 11px) rotate(-45deg);
-  }
-  
-  .change .bar2 {opacity: 0;}
-  
-  .change .bar3 {
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
     transform: translate(0, -11px) rotate(45deg);
     width: 35px;
-  }
+}
 
-  #getintouch{
+#getintouch {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:1rem;
+    gap: 1rem;
     margin-top: 10rem;
     margin-bottom: 5rem;
 }
+
 #getin-h {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 4rem;
-    color: rgba(255,0,0,1);
+    color: rgba(255, 0, 0, 1);
     text-align: center;
 
 }
-#social{
+
+#social {
     display: flex;
     gap: 2rem;
     align-items: center;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 18px;
 }
-#social P{
+
+#social P {
     padding: 1rem;
 }
-.contact-form{
-    background-color:rgba(0, 0, 0, 0.878);
+
+.contact-form {
+    background-color: rgba(0, 0, 0, 0.878);
 }
-.contact-form-container{
+
+.contact-form-container {
     margin: 2rem;
 }
-.let-start{
+
+.let-start {
     color: white;
     font-size: 4rem;
     font-weight: 300;
@@ -112,48 +138,42 @@ nav{
     font-family: 'Josefin Sans', sans-serif;
 
 }
-.let-start span{
+
+.let-start span {
     font-weight: 400;
 }
-.forms{
+
+.forms {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
-    
+
 }
-.label{
+
+.label {
     color: #ffff;
-    font-family:'Work Sans', sans-serif; 
+    font-family: 'Work Sans', sans-serif;
 }
-.input{
+
+.input {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 3rem;
 }
-.input-div{
+
+.input-div {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     gap: 0.5rem;
     padding-bottom: 4rem;
 }
-#name-input{
-    background-color:transparent;
-    color: #ffff;
-    border: none;
-    width:25rem;
-    padding-left: 1rem;
-    padding-bottom: 2px;
-    outline: none;
-    font-size: 18px;
-    font-family: 'Work Sans', sans-serif;
-    border-bottom: 2px solid white;
-}
-#phoneNo-input{
-    background-color:transparent;
+
+#name-input {
+    background-color: transparent;
     color: #ffff;
     border: none;
     width: 25rem;
@@ -162,28 +182,45 @@ nav{
     outline: none;
     font-size: 18px;
     font-family: 'Work Sans', sans-serif;
-    border-bottom: 2px solid white; 
+    border-bottom: 2px solid white;
 }
+
+#phoneNo-input {
+    background-color: transparent;
+    color: #ffff;
+    border: none;
+    width: 25rem;
+    padding-left: 1rem;
+    padding-bottom: 2px;
+    outline: none;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    border-bottom: 2px solid white;
+}
+
 #phoneNo-input::-webkit-outer-spin-button,
-      input::-webkit-inner-spin-button {
-        display: none;
-      }
-.message-box{
+input::-webkit-inner-spin-button {
+    display: none;
+}
+
+.message-box {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 5rem;
-}      
-.message-div{
+}
+
+.message-div {
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
     align-items: flex-end;
     margin-bottom: 4rem;
     margin-top: 4rem;
-}      
-.message-div textarea{
-    border:none;
+}
+
+.message-div textarea {
+    border: none;
     background-color: transparent;
     outline: none;
     border-bottom: 2px solid #ffff;
@@ -194,9 +231,10 @@ nav{
     padding-bottom: 2px;
     font-size: 18px;
     overflow: hidden;
-    width:57rem;
+    width: 57rem;
 }
-.btn{
+
+.btn {
     background-color: transparent;
     color: #ffff;
     font-family: 'Work Sans', sans-serif;
@@ -205,18 +243,21 @@ nav{
     border: none;
     outline: none;
 }
-footer{
+
+footer {
     margin-top: -2rem;
 }
-.bottom-nav{
+
+.bottom-nav {
     display: inline-flex;
     align-items: center;
     flex-direction: column;
     background-color: red;
     width: 100%;
-    
+
 }
-.bottom-nav-links{
+
+.bottom-nav-links {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -224,15 +265,17 @@ footer{
     margin-top: 1.5rem;
     margin-bottom: 1rem;
 
-}  
-.bottom-nav-links a{
+}
+
+.bottom-nav-links a {
     color: #ffff;
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
-    font-family: 'Josefin Sans',sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
-.foot-bottom{
+
+.foot-bottom {
     padding: 1rem;
     display: flex;
     flex-direction: row;
@@ -241,20 +284,22 @@ footer{
     margin-left: 6rem;
     margin-right: 6rem;
 }
-.foot-bottom p{
-    font-family: 'Josefin Sans',sans-serif ;
+
+.foot-bottom p {
+    font-family: 'Josefin Sans', sans-serif;
     color: red;
 }
- 
+
 /* --------------------------------------------------------------------------- */
-.active{
-    background-color: rgba(0, 0, 0, 0.878) ;
+.active {
+    background-color: rgb(31 31 31);
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
-.active>.nav-item{
+
+.active>.nav-item {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -263,7 +308,8 @@ footer{
     gap: 3rem;
 
 }
-.nav-item a{
+
+.nav-item a {
     text-decoration: none;
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
