@@ -4,9 +4,10 @@
 }
 
 header {
- 
+
     background-color: rgb(31 31 31);
     position: fixed;
+    z-index: 9999;
     flex-direction: row;
     width: 100%;
     align-items: center;
