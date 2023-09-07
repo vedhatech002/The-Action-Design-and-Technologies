@@ -1,96 +1,113 @@
-*
-{
- padding: 0;
- margin: 0;   
+* {
+    padding: 0;
+    margin: 0;
 }
-header{
+
+header {
     position: fixed;
     background-color: rgb(31 31 31);
     width: 100%;
-  
+    z-index: 9999;
+
 }
-.navbar{
-   
+
+.navbar {
+
     display: inline-flex;
     flex-direction: row;
     width: 100%;
     align-items: center;
     justify-content: space-between;
 }
-.logo{
+
+.logo {
     margin-top: 1.5rem;
     margin-left: 8rem;
     margin-bottom: 1.2rem;
 }
+
 .menus {
     display: inline-flex;
     flex-direction: row;
     align-content: center;
-    margin-right: 7rem ;
+    margin-right: 7rem;
 }
-nav{
+
+nav {
     display: inline-flex;
     flex-direction: row;
     gap: 1rem;
-   
+
 }
 
 
-.menus > nav a{
+.menus>nav a {
     font-family: 'Work Sans', sans-serif;
     font-size: 1.2rem;
     font-weight: 400;
     text-decoration: none;
     color: white;
 }
-.hamburger{
+
+.hamburger {
     margin-top: -10px;
     margin-left: 1rem;
 }
 
-.bar1, .bar2{
+.bar1,
+.bar2 {
     width: 35px;
     height: 3px;
     background-color: #ffff;
-    margin-top:8px;
+    margin-top: 8px;
     transition: 0.4s;
     border-radius: 8px;
-  }
-.bar3{
+}
+
+.bar3 {
     width: 22px;
     height: 3px;
     background-color: #ffff;
-    margin-top:8px;
+    margin-top: 8px;
     transition: 0.4s;
     float: right;
     border-radius: 8px;
-    
-}  
-  
-  .change .bar1 {
+
+}
+
+.change .bar1 {
     transform: translate(0, 11px) rotate(-45deg);
-  }
-  
-  .change .bar2 {opacity: 0;}
-  
-  .change .bar3 {
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
     transform: translate(0, -11px) rotate(45deg);
     width: 35px;
-  }
-  .active {
-    
+}
+
+.active {
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: sticky; /* Fixed position */
-    top: 0; /* Adjust as needed */
-    left: 0; /* Adjust as needed */
-    width: 100%; /* Take full width */
-    height: 100%; /* Take full height */
-    z-index: 9999; /* Higher z-index value to appear on top */
+    position: sticky;
+    /* Fixed position */
+    top: 0;
+    /* Adjust as needed */
+    left: 0;
+    /* Adjust as needed */
+    width: 100%;
+    /* Take full width */
+    height: 100%;
+    /* Take full height */
+    z-index: 9999;
+    /* Higher z-index value to appear on top */
 }
 
-.active>.nav-item{
+.active>.nav-item {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -99,41 +116,45 @@ nav{
     gap: 3rem;
 
 }
-.nav-item a{
+
+.nav-item a {
     text-decoration: none;
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
     color: white;
 }
 
- /* ----------------------------------------------------------------------------------- */
-  .banner{
-    background-color: rgba(0, 0, 0, 0.878); 
+/* ----------------------------------------------------------------------------------- */
+.banner {
+    background-color: rgba(0, 0, 0, 0.878);
     width: 100%;
-    height:100%;
+    height: 100%;
     display: inline-flex;
     flex-direction: column;
     align-content: stretch;
     margin-top: 0;
-    padding-top:2.7rem ;
-    
-  }
-.banner-title{
+    padding-top: 2.7rem;
+
+}
+
+.banner-title {
     margin-left: 8rem;
-    padding-top: 10rem!important;
+    padding-top: 10rem !important;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 4.3rem;
     font-weight: bold;
     color: #ffff;
     line-height: 1.2;
 }
-.banner-img{
+
+.banner-img {
     margin-left: 60%;
     width: 350px;
     height: 200px;
 }
+
 /*-------------------------------------------------third Section-------------------------------------------*/
-.ourworkbanner{
+.ourworkbanner {
     font-family: 'Josefin Sans', sans-serif;
     display: flex;
     flex-direction: row;
@@ -141,69 +162,83 @@ nav{
     margin-top: 5rem;
     font-size: 44px;
 }
-.scroll-card{
-   
-    display: flex;gap:20px;
+
+.scroll-card {
+
+    display: flex;
+    gap: 20px;
     flex-direction: column;
     justify-content: center;
-    margin:10px;
+    margin: 10px;
     align-items: flex-start;
 }
+
 main {
     overflow-x: hidden;
     display: flex;
     margin-left: 7rem;
     margin-top: 2rem;
-  }
-.works{
+}
+
+.works {
     width: 450px;
     height: 450px;
-    background-color:grey;
+    background-color: grey;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
-.works img{
+
+.works img {
     width: -webkit-fill-available;
 }
-.works-name{
+
+.works-name {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 24px;
     font-weight: bold;
 }
-.works-logo{
-    width: 8rem!important;
-    
+
+.works-logo {
+    width: 8rem !important;
+
 }
+
 /*-------------------------------------------------Second Section-------------------------------------------*/
 
-#second{
+#second {
     display: flex;
     font-family: 'Josefin Sans', sans-serif;
     background-color: white;
     height: 100%;
     width: -webkit-fill-available;
 }
-.col{
+
+.col {
     float: left;
     padding-top: 7rem;
 }
-#sec-col-1{
+
+#sec-col-1 {
     width: 65%;
 }
-#sec-col-2{
+
+#sec-col-2 {
     width: 35%;
 }
-#second::after{
+
+#second::after {
     content: "";
     display: table;
     clear: both;
 }
-#sec-head{
+
+#sec-head {
     font-size: 4rem;
     margin-left: 7rem;
 }
-span#develop{
+
+span#develop {
     /*color: rgb(174, 23, 23);*/
-    background:  linear-gradient(to right, rgba(255,0,0,0.2), rgba(255,0,0,1));
+    background: linear-gradient(to right, rgba(255, 0, 0, 0.2), rgba(255, 0, 0, 1));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     margin-left: 7rem;
@@ -211,85 +246,100 @@ span#develop{
     font-size: 3rem;
 }
 
-#sec-para{
+#sec-para {
     margin-left: 10rem;
     line-height: 2rem;
     padding-top: 2rem;
 }
-#sec-para-div{
+
+#sec-para-div {
     overflow-y: scroll;
     width: 48rem;
     height: 17rem;
-    scrollbar-color: rgba(255,0,0,1);
+    scrollbar-color: rgba(255, 0, 0, 1);
     overflow-x: none;
     padding-right: 3rem;
 }
-#sec-para-div::-webkit-scrollbar{
+
+#sec-para-div::-webkit-scrollbar {
     width: 2px;
 
-    
+
 }
-#sec-para-div::-webkit-scrollbar-track{
+
+#sec-para-div::-webkit-scrollbar-track {
     background-color: rgba(192, 192, 192, 0.781);
     height: 1rem;
-    
+
 }
-#sec-para-div::-webkit-scrollbar-thumb{
-    background-color: rgba(255,0,0,1);
-    min-height: 1rem!important;
+
+#sec-para-div::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 0, 0, 1);
+    min-height: 1rem !important;
     height: 10px;
 
 }
-#sec-para-div::-webkit-scrollbar:horizontal{
+
+#sec-para-div::-webkit-scrollbar:horizontal {
     overflow-x: scroll;
 }
 
-    /*-------------------------------------------------Second Section-----------------------------------------*/
+/*-------------------------------------------------Second Section-----------------------------------------*/
 
-    /*-------------------------------------------------3rd section----------------------------------------*/
-  #view-all{  margin-top: 8rem;} 
-#viewall-font{
+/*-------------------------------------------------3rd section----------------------------------------*/
+#view-all {
+    margin-top: 8rem;
+}
+
+#viewall-font {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 45px;
     text-decoration: underline;
     text-underline-offset: 1rem;
     text-align: center;
     padding-top: 3rem;
-    
+
 }
-#tele{
+
+#tele {
     text-align: right;
-    
+
 }
-#image-tele{
+
+#image-tele {
     margin-top: 0;
     width: 25%;
     height: 25%;
 }
-#talk{
+
+#talk {
     font-family: 'Josefin Sans', sans-serif;
     text-decoration: none;
-    color: rgba(255,0,0,1);
-    
+    color: rgba(255, 0, 0, 1);
+
 }
-#let{
+
+#let {
     text-align: center;
     font-size: 1.5rem;
     margin-top: -8rem;
 }
-#broad-hr{
+
+#broad-hr {
     height: .8rem;
     border: none;
     width: 92%;
-   
-    background-color: rgba(255,0,0,1);
+
+    background-color: rgba(255, 0, 0, 1);
 }
-#broad-hr-div{
+
+#broad-hr-div {
     text-align: -webkit-right;
     margin-top: 6.2rem;
 }
- /*-------------------------------------------------testimonial section-----------------------------------------*/
-.testimonialContainer{
+
+/*-------------------------------------------------testimonial section-----------------------------------------*/
+.testimonialContainer {
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -299,20 +349,23 @@ span#develop{
     margin-bottom: 5rem;
 
 }
- .testi-header{ 
+
+.testi-header {
     margin-top: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
-#testimonial{
+
+#testimonial {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 3rem;
-   
-    
+
+
 }
-.user-testimonial-div{
+
+.user-testimonial-div {
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -320,87 +373,100 @@ span#develop{
     justify-content: flex-start;
     position: relative;
     user-select: none;
-    
+
 }
-#testi-user-name{
+
+#testi-user-name {
     font-family: 'Work Sans', sans-serif;
     color: red;
     font-size: 18px;
     font-weight: 500;
 }
-#user-testi-text{
+
+#user-testi-text {
     font-family: 'Work Sans';
     font-size: 16px;
     font-weight: 400;
     color: #000000d1;
 }
-.arrow{
+
+.arrow {
     position: absolute;
     cursor: pointer;
-   background-color: white;
-   padding-left: 8px;
-   padding-top: 16px;
-   padding-right: 8px;
-   padding-bottom: 12px;
-   border-style: solid;
-  
-   border-radius: 50%;
-   margin-top: 11rem;
-   
+    background-color: white;
+    padding-left: 8px;
+    padding-top: 16px;
+    padding-right: 8px;
+    padding-bottom: 12px;
+    border-style: solid;
+
+    border-radius: 50%;
+    margin-top: 11rem;
+
 }
-.fa-angle-right{
+
+.fa-angle-right {
     margin-right: -61rem;
 }
-.fa-angle-left{
+
+.fa-angle-left {
     margin-left: -61rem;
 }
-#testi-hr{
-height: 0.8rem;
-border: none;
-width: 92%;
-background-color: rgba(255,0,0,1);
+
+#testi-hr {
+    height: 0.8rem;
+    border: none;
+    width: 92%;
+    background-color: rgba(255, 0, 0, 1);
 }
+
 /*-------------------------------------------------blog card-----------------------------------------*/
-.blogs-sec{
+.blogs-sec {
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
     align-items: center;
-  
+
 }
-.blogs-header{
+
+.blogs-header {
     margin-top: 8rem;
     margin-bottom: 5rem;
 }
-.action-blog{
+
+.action-blog {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 3rem;
 }
-.blog-container{
-    width:80%;
+
+.blog-container {
+    width: 80%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap:1.2rem;
-   
+    gap: 1.2rem;
+
 }
-.blog-card{
+
+.blog-card {
     background-image: url(./images/blogbackground1.jpg);
- 
+
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 370px;
     height: 370px;
 }
-.blog-title-div{
+
+.blog-title-div {
     background: #00000096;
     height: inherit;
     display: flex;
     align-items: flex-end;
 }
-.blog-title{
+
+.blog-title {
     color: white;
     padding: 1rem;
     font-family: 'Josefin Sans';
@@ -409,7 +475,8 @@ background-color: rgba(255,0,0,1);
     padding-left: 2.3rem;
     position: relative;
 }
-.blog-title::before{
+
+.blog-title::before {
     content: "";
     height: -webkit-fill-available;
     margin-bottom: 2rem;
@@ -418,49 +485,58 @@ background-color: rgba(255,0,0,1);
     position: absolute;
     left: 0.8rem;
 }
-.blog-footer{
+
+.blog-footer {
     margin-top: 5rem;
 }
-.blog-footer a{
-    font-family: 'Work Sans',sans-serif;
+
+.blog-footer a {
+    font-family: 'Work Sans', sans-serif;
     color: red;
     text-decoration: none;
     font-size: 18px;
     font-weight: 500;
 }
+
 /*-------------------------------------------------footer-----------------------------------------*/
-#getintouch{
+#getintouch {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:1rem;
+    gap: 1rem;
     margin-top: 10rem;
     margin-bottom: 5rem;
 }
+
 #getin-h {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 4rem;
-    color: rgba(255,0,0,1);
+    color: rgba(255, 0, 0, 1);
     text-align: center;
 
 }
-#social{
+
+#social {
     display: flex;
     gap: 2rem;
     align-items: center;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 18px;
 }
-#social P{
+
+#social P {
     padding: 1rem;
 }
-.contact-form{
-    background-color:rgba(0, 0, 0, 0.878);
+
+.contact-form {
+    background-color: rgba(0, 0, 0, 0.878);
 }
-.contact-form-container{
+
+.contact-form-container {
     margin: 2rem;
 }
-.let-start{
+
+.let-start {
     color: white;
     font-size: 4rem;
     font-weight: 300;
@@ -470,48 +546,42 @@ background-color: rgba(255,0,0,1);
     font-family: 'Josefin Sans', sans-serif;
 
 }
-.let-start span{
+
+.let-start span {
     font-weight: 400;
 }
-.forms{
+
+.forms {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
-    
+
 }
-.label{
+
+.label {
     color: #ffff;
-    font-family:'Work Sans', sans-serif; 
+    font-family: 'Work Sans', sans-serif;
 }
-.input{
+
+.input {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 3rem;
 }
-.input-div{
+
+.input-div {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     gap: 0.5rem;
     padding-bottom: 4rem;
 }
-#name-input{
-    background-color:transparent;
-    color: #ffff;
-    border: none;
-    width:25rem;
-    padding-left: 1rem;
-    padding-bottom: 2px;
-    outline: none;
-    font-size: 18px;
-    font-family: 'Work Sans', sans-serif;
-    border-bottom: 2px solid white;
-}
-#phoneNo-input{
-    background-color:transparent;
+
+#name-input {
+    background-color: transparent;
     color: #ffff;
     border: none;
     width: 25rem;
@@ -520,28 +590,45 @@ background-color: rgba(255,0,0,1);
     outline: none;
     font-size: 18px;
     font-family: 'Work Sans', sans-serif;
-    border-bottom: 2px solid white; 
+    border-bottom: 2px solid white;
 }
+
+#phoneNo-input {
+    background-color: transparent;
+    color: #ffff;
+    border: none;
+    width: 25rem;
+    padding-left: 1rem;
+    padding-bottom: 2px;
+    outline: none;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    border-bottom: 2px solid white;
+}
+
 #phoneNo-input::-webkit-outer-spin-button,
-      input::-webkit-inner-spin-button {
-        display: none;
-      }
-.message-box{
+input::-webkit-inner-spin-button {
+    display: none;
+}
+
+.message-box {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 5rem;
-}      
-.message-div{
+}
+
+.message-div {
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
     align-items: flex-end;
     margin-bottom: 4rem;
     margin-top: 4rem;
-}      
-.message-div textarea{
-    border:none;
+}
+
+.message-div textarea {
+    border: none;
     background-color: transparent;
     outline: none;
     border-bottom: 2px solid #ffff;
@@ -552,9 +639,10 @@ background-color: rgba(255,0,0,1);
     padding-bottom: 2px;
     font-size: 18px;
     overflow: hidden;
-    width:57rem;
+    width: 57rem;
 }
-.btn{
+
+.btn {
     background-color: transparent;
     color: #ffff;
     font-family: 'Work Sans', sans-serif;
@@ -563,18 +651,21 @@ background-color: rgba(255,0,0,1);
     border: none;
     outline: none;
 }
-footer{
+
+footer {
     margin-top: -2rem;
 }
-.bottom-nav{
+
+.bottom-nav {
     display: inline-flex;
     align-items: center;
     flex-direction: column;
     background-color: red;
     width: 100%;
-    
+
 }
-.bottom-nav-links{
+
+.bottom-nav-links {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -582,15 +673,17 @@ footer{
     margin-top: 1.5rem;
     margin-bottom: 1rem;
 
-}  
-.bottom-nav-links a{
+}
+
+.bottom-nav-links a {
     color: #ffff;
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
-    font-family: 'Josefin Sans',sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
-.foot-bottom{
+
+.foot-bottom {
     padding: 1rem;
     display: flex;
     flex-direction: row;
@@ -599,8 +692,8 @@ footer{
     margin-left: 6rem;
     margin-right: 6rem;
 }
-.foot-bottom p{
-    font-family: 'Josefin Sans',sans-serif ;
+
+.foot-bottom p {
+    font-family: 'Josefin Sans', sans-serif;
     color: red;
 }
- 
